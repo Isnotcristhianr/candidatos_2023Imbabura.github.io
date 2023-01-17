@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatos</title>
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="heads">
+            <div>
+                <img src="imgs/logoPuceSi.png" alt="logoPuce" id="imgLogo">
+            </div>
+
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Candidatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Plan de Accion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Dropdown List -->
+    <div class="container">
+        <div class="row m-4 p-3">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <select class="form-control" id="Canton">
+                        <option value="0" id="defect">Selecciona un resultado para mostrar ▼</option>
+                        <option value="1" id="ib">Ibarra</option>
+                        <option value="2" id="at">Antonio Ante</option>
+                        <option value="3" id="ur">San Miguel de Urcuqui</option>
+                        <option value="4" id="cot">Cotacachi</option>
+                        <option value="5" id="ot">Otavalo</option>
+                        <option value="6" id="pim">Pimampiro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Candidatos -->
+    <div class="container">
+        <div class="row">
+            <!-- Ibarra -->
+            <div id="IbarraCand" class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-user-tie"></i>
+                            Candidatos/as para Ibarra
+                        </h3>
+                    </div>
+                </div>
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidato1_Ruales2.png" alt="CI1"
+                                class="img-fluid rounded-circle imgsCand">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 1</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Edwin Rúales </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento Centro Democrático</p>
+                            <p class="card-text"><b>Edad:</b> 58 años</p>
+                            <p class="card-text"><b>Formacion Academica:</b> Artesano Grafico</p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> No tiene</p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> Mejor Egresado</p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidato2_Nicolalde.png" alt="CI3"
+                                class="img-fluid rounded-circle imgsCand">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 2</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Marco Anibal Nicolalde Montalvo </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Partido Sociedad Patriótica</p>
+                            <p class="card-text"><b>Edad:</b> 49 años</p>
+                            <p class="card-text"><b>Formacion Academica:</b> Doctor en Jurisprudencia, abogado de los
+                                tribunales de
+                                la República, Magister y Diplomado en Derechos Humanos</p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Militado en varias tendencias</p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> Mejor Egresado</p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidata3_Chamorro.png" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 3</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Tania Chamorro </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> - </p>
+                            <p class="card-text"><b>Edad:</b> - </p>
+                            <p class="card-text"><b>Formacion Academica:</b> - </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> - </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidata4_Otto.png" alt="CI5"
+                                class="img-fluid rounded-circle imgsCand">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 4</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Otto Ayala</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> PARTIDO SOCIAL CRISTIANO</p>
+                            <p class="card-text"><b>Edad:</b> 26 años</p>
+                            <p class="card-text"><b>Formacion Academica:</b> Abogado (Pontificia Universidad Católica
+                                del
+                                Ecuador)</p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> No tiene</p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidato5_Alvarp.png" alt="CI6"
+                                class="img-fluid rounded-circle imgsCand">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 5</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Alvaro Ramiro Castillo Aguirre</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Avanza</p>
+                            <p class="card-text"><b>Edad:</b> 58 años</p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>Estudios Primarios y secundarios en Quito en el Colegio La Salle
+                                </li>
+                                <li>Estudios Superiores en la Universidad Central del Ecuador, donde obtuvo el título de
+                                    Ingeniero Civil. </li>
+                                <li>Certificado Internacional en formulación, evaluación y gestión de proyectos
+                                    BIB-Politécnica Nacional
+                                </li>
+                                <li>Diplomado en investigación en la Universidad Tecnológica América </li>
+                                <li>MBA. en Gerencia Empresarial, en la Escuela Politécnica Nacional </li>
+                                <li>Maestría en Desarrollo Local</li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li> Gerente de EMAPA-I, entre el 16 de enero de 2003 hasta el 3 de febrero de 2009</li>
+                                <li> Alcalde de la ciudad de Ibarra</li>
+                                <li> Gobernador de Imbabura</li>
+                                <li>Presidente del Directorio de la Asociación Nacional de Empresas de Agua Potable del
+                                    Ecuador ANEMAPA</li>
+                                <li>Presidente del Directorio de la Asociación de Empresas de Agua Potable de la
+                                    Comunidad
+                                    Andina de Naciones ANDESAPA </li>
+                                <li> Director Ejecutivo de ANEMAPA</li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidata6_steves.png" alt="CI7"
+                                class="img-fluid rounded-circle imgsCand">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 6</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Fredy Rolando Estévez Valencia </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Izquierda Democrática </p>
+                            <p class="card-text"><b>Edad:</b> 30 años</p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>Economista en la Universidad Central del Ecuador. 1998
+                                </li>
+                                <li>
+                                    Maestría en Administración de empresas por la Universidad de Otavalo
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>Cargos Públicos
+                                </li>
+                                <li>Coordinador de la carrera de economía de la UTN
+                                </li>
+                                <li>
+                                    Director administrativo financiero Zona 1 en el MSP
+                                </li>
+                                <li>
+                                    Director de comercialización en EMAPA Ibarra
+                                </li>
+                                <li>
+                                    Concejal del Cantón Ibarra
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> No tiene </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidato7_toaquiza.png" alt="CI8"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 7</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Edwin Toaquiza Chiriboga </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Alianza JUNTOS POR EL CAMBIO 17-70
+                            </p>
+                            <p class="card-text"><b>Edad:</b> - </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>
+                                    Estudió Licenciado en Ciencias Políticas y Económicas en UTPL - Universidad Técnica
+                                    Particular de Loja
+                                </li>
+                                <li>
+                                    Estudió Periodista en Universidad Central del Ecuador
+                                </li>
+                                <li>
+                                    Estudió en Colegio Sánchez y Cifuentes
+                                </li>
+                                <li>
+                                    Estudió Derecho en UTPL - Universidad Técnica Particular de Loja
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Trabajó como Concejal en Ilustre Municipio
+                                De
+                                Ibarra </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidata8_hilda.png" alt="CI9"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 9</h3><br>
+                            <p class="card-text"><b>Nombre:</b> HILDA HERRERA TAPIA </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Pachakutik </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>
+                                    <b>Universidad Andina Simón Bolivar - Ecuador</b>
+                                    <br>
+                                    Postgrado - Derechos Humanos
+                                </li>
+                                <li>
+                                    <b>Universidad Técnica del Norte</b>
+                                    <br>
+                                    Grado en Administración y Dirección de Empresas - Gestión de Recursos Humanos
+                                    1996 - 2000
+                                </li>
+                                <li>
+                                    <b>Universidad Politécnica Ecológica Amazonía
+                                    </b>
+                                    <br>
+                                    Sociología
+                                </li>
+                                <li>
+                                    <b>Universidad Técnica del Norte</b>
+                                    <br>
+                                    Ingeniera Comercial - Economía
+                                </li>
+                                <li>
+                                    <b>Universidad Técnica del Norte
+                                    </b>
+                                    <br>
+                                    Licenciada en Administración de Empresas
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>
+                                    Gestión Escuela de Derechos Humanos para adolescentes y jóvenes <br>
+                                    <b>Consejo Cantonal de Protección de Derechos</b> <br>
+                                    Jun. de 2017 - actualidad (5 años 6 meses) <br>
+                                    Ibarra, Ecuador
+                                </li>
+                                <li>
+                                    Ex-Concejala/Presidenta (e) Consejo Cantonal de Protección de Derechos <br>
+                                    <b>Gobierno Autónomo Descentralizado de San Miguel de Ibarra</b> <br>
+                                    May. de 2014 - actualidad (8 años 7 meses) <br>
+                                    Ibarra
+                                </li>
+                                <li>
+                                    Ex Presidenta de la Asociación de Mujeres Municipalistas del Ecuador <br>
+                                    <b>Asociación de Mujeres Municipalistas del Ecuador </b> <br>
+                                    Mar. de 2010 - actualidad (12 años 9 meses) <br>
+                                    Quito, Ecuador <br>
+                                    Hasta el 2012
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidata9_marcela.png" alt="CI10"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 10</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Marcela Paredes </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento democracia Sí 20
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Derecho en la Universidad Católica de
+                                Guayaqui
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>
+                                    Activista política, humanista y Social de “Acción Ciudadana”
+                                </li>
+                                <li>
+                                    Ha trabajado en la Junta cantonal de Protección de Derechos
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/ibarra/candidata10_arias.png" alt="CI11"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 11</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Juan Fernando Arias Carvajal </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Muévete Imbabura - 62
+                            </p>
+                            <p class="card-text"><b>Edad:</b> 30 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>Secundaria: Colegio Sánchez y Cifuentes</li>
+                                <li> Universitaria: Lic. Comercio exterior por la Pontificia Universidad Católica del
+                                    Ecuador Sede Ibarra.
+                                </li>
+                                <li>
+                                    Diplomado: Marketing Digita
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> No tiene </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> No tiene </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Atuntaqui -->
+            <div id="AtuntaquiCand" class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-user-tie"></i>
+                            Candidatos/as para Antonio Ante
+                        </h3>
+                    </div>
+                </div>
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/atuntaqui/candidata1_martha.jpg" alt="CA1"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 1</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Martha Yolanda Posso Padilla </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Centro Democrático, lista 1-20 </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Ingeniera Textil </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> desconocida </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/atuntaqui/candidata2_PAULINA.jpg" alt="CA2"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 2</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Paulina Maribel Cadena Estévez </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento Revolución Ciudadana, lista 5
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Pontificia Universidad Católica del Ecuador
+                                Sede Ibarra, Ingeniera
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>
+                                    concejal urbano de Antonio Ante
+                                </li>
+                                <li>
+                                    Vicealcaldesa de Antonio Ante mediante votación unánime para el periodo de 2 años
+                                    siendo
+                                    Rolando López alcalde.
+
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/atuntaqui/candidato3_cesar.jpg" alt="CA3"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 3</h3><br>
+                            <p class="card-text"><b>Nombre:</b> César Javier Escobar Vallejos </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Imbabura del futuro, lista 8-2 </p>
+                            <p class="card-text"><b>Edad:</b> 45 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b> ex oficial de la Policía Nacional, se
+                                especializo en el ámbito investigativo, en el de inteligencia (especialista en
+                                seguridad).
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CA4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 4</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Carlos Alfredo Espinosa Calderón </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Partido Izquierda Democrática, lista 12
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Empresario textil </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Ex Concejal Antonio Ante periodos
+                                2009-2014 y
+                                2014-2019 </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/atuntaqui/candidato5_rolando.jpg" alt="CA5"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 5</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Eddy Rolando López Chavarrea </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento AMIGO (Acción Movilizadora
+                                Independiente Generando Oportunidades) lista 16
+                            </p>
+                            <p class="card-text"><b>Edad:</b> 46 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Ingeniero Comercial </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Hace 4 años ingreso a la política por
+                                primera
+                                vez
+                                Actual alcalde de Antonio Ante periodo 2019-2023 </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CA6"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 6</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Lilia Amparo Paspuel Irua </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Juntos por el cambio, lista 17-70 </p>
+                            <p class="card-text"><b>Edad:</b> 49 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Estudio contabilidad pedagógica en
+                                Universidad
+                                Técnica del Norte </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/atuntaqui/candidato7_roberto.jpg" alt="CA7"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 7</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Roberto Carlos Yamberla Díaz </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento de Unidad Plurinacional
+                                Pachakutik,
+                                lista 18 </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>Estudio docencia básica (Licenciado)</li>
+                                <li>Actualmente trabaja como coordinador del proyecto social desde la fundación por una
+                                    mirada feliz hace un seguimiento a los centros infantiles de Otavalo.
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Urququi -->
+            <div id="UrcuquiCand" class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-user-tie"></i>
+                            Candidatos/as para San Miguel de Urcuqui
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/urcuqui/candidato1_roberto.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 1</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Roberto Carlos Yamberla Díaz
+                            </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento de Unidad Plurinacional
+                                Pachakutik,
+                                lista 18 </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>docencia básica (Licenciado)</li>
+                                <li> Trabaja como coordinador del proyecto social desde la fundación por una mirada
+                                    feliz
+                                    hace un seguimiento a los centros infantiles de Otavalo.
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 2</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Tania Chamorro </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Ángel Jesús Guajan Morales </p>
+                            <p class="card-text"><b>Edad:</b> Movimiento de Unidad Plurinacional
+                                Pachakutik </p>
+                            <p class="card-text"><b>Formacion Academica:</b> N/D </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 3</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Lauro Tarquino Salas Rivera </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Democracia Si</p>
+                            <p class="card-text"><b>Edad:</b> 41 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>
+                                    Colegio Nacional Tecnico "Urcuqui"
+                                </li>
+                                <li>
+                                    Universidad Tecnológica America, Ingeniera Mecanica
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Presiedente de la Junta de Riego
+                                Turquizan-Urcuqui </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 4</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Blanca Germania Quiranza Morales </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Creo-21 </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> N/D </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Cotacachi -->
+            <div id="CotacachiCand" class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-user-tie"></i>
+                            Candidatos/as para Cotacachi
+                        </h3>
+                    </div>
+                </div>
+
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/cotacachi/candidato1_auqui.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 1</h3><br>
+                            <p class="card-text"><b>Nombre:</b> TITUAÑA MALES AUKI KANAIMA </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> UNETE </p>
+                            <p class="card-text"><b>Edad:</b> 56 años
+                            </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>
+                                    Universidad de la Habana - República de Cuba
+                                </li>
+                                <li>
+                                    Facultad de Ciencias Económicas
+                                </li>
+                                <li>
+                                    REVALIDADO POR LA PONTIFICIA UNIVERSIDAD CATOLICA DEL ECUADOR - PUCE
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>
+                                    INSTITUCIÓN: MUNICIPIO DE COTACACHI - GOBIERNO LOCAL <br>
+                                    Cargo: Alcalde
+                                </li>
+                                <li>
+                                    Fecha: Agosto 1996 - julio 2009 (Por tres períodos consecutivos- Total 13 Años)
+                                </li>
+                                <li>
+                                    INSTITUCIÓN: CONFEDERACIÓN DE NACIONALIDADES INDÍGENAS DEL ECUADOR CONAIE
+                                    Cargo: Director Financiero y de Planificación.
+                                </li>
+                                <li>
+                                    INSTITUCIÓN: ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO - ESPOCH
+                                    Cargo: Profesor de Macroeconomía y Sociología Económica y del Trabajo.
+                                </li>
+                                <li>
+                                    INSTITUCIÓN: MUNICIPIO DE COTACACHI <br>
+                                    Cargo Actual: Alcalde.
+
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b>
+                            <ul>
+                                <li>
+                                    Premio: “MEJORES PRÀCTICAS DE GOBERNABILIDAD - DEMOCRATIZACIÓN MUNICIPAL EN
+                                    COTACACHI”,
+                                    Otorgado por el Municipio de Dubai, de los Emiratos Àrabes Unidos, la Organización
+                                    de
+                                    las Naciones Unidas / ONU, y El Centro Internacional para los Asentamientos Humanos
+                                    /
+                                    HABITAT. Noviembre del 2000.
+                                </li>
+                                <li>
+                                    Premio: “UNESCO, CIUDADES POR LA PAZ”, concedido a las ciudades que fomentan
+                                    políticas
+                                    de una Cultura de Paz Y Díalogo Intercultural. Otorgado por la Organización de las
+                                    Naciones Unidas para la Educación, la Ciencia y la Cultura - UNESCO. Marzo del 2002.
+                                </li>
+                                <li>
+                                    Reconocimiento de la UNESCO: “COTACACHI, LIBRE DE ANALFABETISMO”, por haber
+                                    desarrollado
+                                    con éxito la metodología cubana de alfabetización “YO SI PÙEDO”, y disminuir el
+                                    analfabetismo en el cantón de 23% al 2,5%. Abril del 2005.
+
+                                </li>
+                            </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/cotacachi/candidato2_rodas.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 2</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Rodas Avila Christian Paul </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> CENTRO DEMOCRÁTICO </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>
+                                    Ingeniero Agropecuario
+                                </li>
+                                <li>
+                                    Lic. en CCEE mención Físico-matemáticas
+                                </li>
+                                <li>
+                                    Master en Gerencia y Liderazgo Educativo
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Se ha desempeñado como profesional en el
+                                campo
+                                agropecuario, como Técnico, Asesor y Gerente en Agro-producción y Agro-comercialización
+                                (Agroim, Genfar y Quinta los Ángeles), y la Fundación “Comunidad verde”. En la docencia
+                                ha
+                                laborado por más de 15 años en diferentes Unidades Educativas como: UE Álamos, UE San
+                                francisco de Ibarra, UE Luis Ulpiano de la Torre, Instituto Tecnológico Luis Ulpiano de
+                                la
+                                Torre, UE Milenio Sumak Yachana Wasi y finalmente en la UE Luis Plutarco Cevallos.
+                                Director
+                                General de los centros de nivelación y preuniversitarios RODAS. Actualmente ejerce el
+                                cargo
+                                de concejal del Cantón Cotacachi y presidente de la comisión de planificación y
+                                presupuesto
+                                del cantón Cotacachi.
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Otavalo -->
+            <div id="OtavaloCand" class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-user-tie"></i>
+                            Candidatos/as para Otavalo
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/otavalo/candidata1_lourdes.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 1</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Lourdes Alta Lima</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Avanza lista 8 </p>
+                            <p class="card-text"><b>Edad:</b> 42 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Doctora en Jurisprudencia en la Universidad
+                                Central del Ecuador </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                                Su primera llegada a un puesto político es a la concejalía con la lista del ex
+                                presidente del Ecuador Rafael Correa Alianza País, tuvo su segunda oportunidad de seguir
+                                en
+                                la
+                                concejalía que la gano por la lista UNETE que surgió bajo el mando del actual alcalde
+                                Mario
+                                Conejo la cual desempeño como registradora de la Propiedad en Otavalo.
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/otavalo/candidata2_JARAMILLO.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 2</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Gabriela Jaramillo </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Muévete Imbabura lista 62-33-25 </p>
+                            <p class="card-text"><b>Edad:</b> 42 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>Ingeniería Comercial-Universidad Católica del Ecuador</li>
+                                <li>Contadora Publica Autorizada-Universidad católica del Ecuador</li>
+                                <li>Diplomado en Gestión de Instituciones de la Salud-Universidad Andrés Bello, Chile
+                                </li>
+                                <li>Diplomado en Alta Gerencia-Universidad Andrés Bello, Chile</li>
+                                <li>BECARIA INTERNACIONAL DEL GOBIERNO DE LOS ESTADOS UNIDOS DE NORTE
+                                    AMÉRICA- Departamento de Estado, WASHINGTON D.C</li>
+                                <li>Especialista en Administración de Instituciones de la Salud-Universidad de las
+                                    Américas,
+                                    Quito</li>
+                                <li>Magister Internacional MBA en Gestión de Instituciones de la Salud- Universidad
+                                    Andres
+                                    Bello,
+                                    Chile</li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>PREFECTA SUBROGANTE DE IMBABURA / Períodos de ausencia del Señor Prefecto de
+                                    Imbabura.</li>
+                                <li>
+                                    VICEPREFECTA DE LA PROVINCIA DE IMBABURA
+                                </li>
+                                <li>
+                                    GOBERNADORA DE LA PROVINCIA DE Imbabura
+                                </li>
+                                <li>Y sin dejar a un lado por su paso en el 2019 fue candidata para la alcaldía de
+                                    Otavalo
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> Ah liderado proyectos desde las
+                                direcciones
+                                de la PREFECTURA DE IMBABURA, Desarrollo
+                                Económico, Cooperación Internacional, Ambiente, Riego y Recursos Hídricos. </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/otavalo/candidato3_caminos.jpg" alt="C03"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 3</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Rafael Anrango Tituaña</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Juntos por Otavalo lista 12-20 </p>
+                            <p class="card-text"><b>Edad:</b> 59 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Licenciado en Ciencias de la Educación </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>Comenzó en la política en las anteriores elecciones del 2019 en el cual fue
+                                    candidato
+                                    como concejal
+                                    en el cual no pudo lograr los votos para poder asumir a ese cargo.</li>
+                                <li>
+                                    En estas elecciones del 2023 se postula como candidato a la alcaldía de Otavalo.
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/otavalo/candidato4_EFRAIN.jpg" alt="C03"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 4</h3><br>
+                            <p class="card-text"><b>Nombre:</b> EFRAIN AMAGUAÑA</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento centro democrático </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b>
+                            <ul>
+                                <li>
+                                    Estudió Abogado de los Tribunales y Juzgados de la República del Ecuador en
+                                    Universidad
+                                    Central Del Ecuador
+                                </li>
+                                <li>
+                                    Estudió Técnico de Servicios Municipales en Territorio-Sevilla España en Dialoga
+                                    Consultores
+                                </li>
+                                <li>
+                                    Estudió Magíster en Derecho Constitucional en Universidad de Otavalo
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>
+                                    Trabajó como activista cultural en Ministerio de Cultura y Patrimonio.
+                                </li>
+                                <li>
+                                    Trabajó como secretario general y de Concejo en Municipio de Otavalo.
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> - </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/otavalo/candidato5_pavon.jpg" alt="C03"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 5</h3><br>
+                            <p class="card-text"><b>Nombre:</b> ANDRES PAVON </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento Pueblo Igualdad y Democracia
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Abogado en UTPL - Universidad Técnica
+                                Particular de Loja. </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>ASAMBLEÍSTA PRINCIPAL DE LA ASAMBLEA NACIONAL CONSTITUYENTE POR LA
+                                    PROVINCIA DE IMBABURA. (2008).</li>
+                                <li>
+                                    CONCEJAL DE OTAVALO LEGISLAR Y FISCALIZAR (2006- 2009).
+                                </li>
+                                <li>
+                                    CONCEJAL ALTERNO (2004-2006).
+                                </li>
+                                <li>
+                                    DOCENTE Escuela de formación de Policías “San Pablo del Lago”
+                                </li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/otavalo/candidato6_anabel.jpg" alt="C03"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 6</h3><br>
+                            <p class="card-text"><b>Nombre:</b> ANABEL HERMOSA </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento político revolución ciudadana.
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Estudió Ingeniería de Empresas en
+                                Universidad
+                                UTE </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b>
+                            <ul>
+                                <li>Trabajó en Presidencia De La Republica Del Ecuador</li>
+                                <li>Ex Concejala y 2da. Vicealcaldesa en Concejo Metropolitano de Quito</li>
+                            </ul>
+                            </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pimampiro -->
+            <div id="PimampiroCand" class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-user-tie"></i>
+                            Candidatos/as para Pimampiro
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidata 1</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Fátima Alexandra Andrango Inagán</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Movimiento Político Revolución Ciudadana
+                                Lista
+                                5
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Ingeniera en Contabilidad y Auditoria </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Ninguna </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/PIMAMPIRO/candidato1_arroyo.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 2</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Arroyo Pantoja Edwin Rene </p>
+                            <p class="card-text"><b>Movimiento Politico:</b> CREO 21 </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Ingeniero en Agronegocios avalúos y
+                                catastros
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/blank-profile-picture-g82394e5b3_640.png" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 3</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Oscar Rolando Narváez Rosales</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> ALIANZA UNIDAD POR EL CAMBIO ENTRE EL
+                                PARTIDO
+                                POLÍTICO SOCIALISTA 17, Y EL MOVIMIENTO CAMBIEMOS 106
+                            </p>
+                            <p class="card-text"><b>Edad:</b> 51 años </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Economista </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> Ex alcalde </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contCand">
+                    <div class="row m-3 p-2">
+                        <div class="col-md-4">
+                            <img src="imgs/PIMAMPIRO/candidato4_deigo.jpg" alt="CI4"
+                                class="img-fluid rounded-circle imgsCand">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title m-1">Candidato 4</h3><br>
+                            <p class="card-text"><b>Nombre:</b> Diego Fernando Rodríguez Arciniegas</p>
+                            <p class="card-text"><b>Movimiento Politico:</b> Pachakutik, lista 18; Izquierda Democrática
+                                Lista 12; Democracia SI lista 20.
+                            </p>
+                            <p class="card-text"><b>Edad:</b> N/D </p>
+                            <p class="card-text"><b>Formacion Academica:</b> Estudio en Universidad de Guayaquil;
+                                Escuela
+                                Superior Naval; estudio gestión empresarial en la UESS.
+                            </p>
+                            <p class="card-text"><b>Trayectoria Politica:</b> N/D </p>
+                            <p class="card-text"><b>Menciones Honorificas:</b> N/D </p>
+                            <a href="#" class="btn btn-primary">Conocer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Volver al top -->
+    <a href="#" class="btn btn-primary btn-lg back-to-top" role="button" id="scroll"><i
+            class="fas fa-chevron-up"></i></a>
+
+
+    <footer>
+        <!-- Js -->
+        <script src="js/funciones.js"></script>
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <!-- Boostrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+
+    </footer>
+
+</body>
+
+</html>
