@@ -6,6 +6,9 @@ $(function () {
     $("#OtavaloCand").hide();
     $("#PimampiroCand").hide();
 
+    $("#foot").hide();
+
+    $('#PrefecturaCand').hide();
 
 });
 
@@ -18,6 +21,9 @@ $(document).ready(function () {
             $("#CotacachiCand").hide();
             $("#OtavaloCand").hide();
             $("#PimampiroCand").hide();
+            $("#foot").show();
+            $('#PrefecturaCand').hide();
+
         }
         else if (this.value == 1) {
             $("#IbarraCand").show();
@@ -26,6 +32,9 @@ $(document).ready(function () {
             $("#CotacachiCand").hide();
             $("#OtavaloCand").hide();
             $("#PimampiroCand").hide();
+            $("#foot").show();
+            $('#PrefecturaCand').hide();
+
         }
         else if (this.value == 2) {
             $("#IbarraCand").hide();
@@ -34,6 +43,8 @@ $(document).ready(function () {
             $("#CotacachiCand").hide();
             $("#OtavaloCand").hide();
             $("#PimampiroCand").hide();
+            $('#PrefecturaCand').hide();
+
         }
         else if (this.value == 3) {
             $("#IbarraCand").hide();
@@ -42,6 +53,9 @@ $(document).ready(function () {
             $("#CotacachiCand").hide();
             $("#OtavaloCand").hide();
             $("#PimampiroCand").hide();
+            $("#foot").show();
+            $('#PrefecturaCand').hide();
+
         }
         else if (this.value == 4) {
 
@@ -51,6 +65,10 @@ $(document).ready(function () {
             $("#CotacachiCand").show();
             $("#OtavaloCand").hide();
             $("#PimampiroCand").hide();
+            $("#foot").show();
+            $('#PrefecturaCand').hide();
+
+
         }
 
         else if (this.value == 5) {
@@ -60,6 +78,9 @@ $(document).ready(function () {
             $("#CotacachiCand").hide();
             $("#OtavaloCand").show();
             $("#PimampiroCand").hide();
+            $("#foot").show();
+            $('#PrefecturaCand').hide();
+
         }
         else if (this.value == 6) {
             $("#IbarraCand").hide();
@@ -68,8 +89,21 @@ $(document).ready(function () {
             $("#CotacachiCand").hide();
             $("#OtavaloCand").hide();
             $("#PimampiroCand").show();
+            $("#foot").show();
+            $('#PrefecturaCand').hide();
+
         }
-    })
+        else if (this.value == 7) {
+            $("#IbarraCand").hide();
+            $("#AtuntaquiCand").hide();
+            $("#UrcuquiCand").hide();
+            $("#CotacachiCand").hide();
+            $("#OtavaloCand").hide();
+            $("#PimampiroCand").hide();
+            $("#foot").show();
+            $('#PrefecturaCand').show();
+        }
+    });
 });
 
 //mostrar scroll bar 
